@@ -15,7 +15,7 @@ namespace GuitarShop.Controllers
         // Controller for the About html content view
         public IActionResult About()
         {
-            return View();
+            return Content("Home controller, About action");
         }
     }
 }

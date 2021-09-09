@@ -6,12 +6,11 @@ namespace GuitarShop.Controllers
 {
     public class ProductController : Controller
     {
-        public IActionResult List(string id = "All")
+        public IActionResult List(string id = "All", int page = 1, string sortby = "Price")
         {
-            return Content("Product controller, List action, id: " + id);
+            return Content("id=" + id + ", page=" + page +
+               ", sortby=" + sortby);
         }
-        public IActionResult Detail(int id)
-        {
-        }
+
     }
 }
