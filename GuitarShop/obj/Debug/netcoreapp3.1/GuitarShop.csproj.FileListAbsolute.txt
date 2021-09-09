@@ -88,7 +88,6 @@
 /Users/jonathan/Desktop/Azure ASP .NET/aspnet_core_mvc/book_apps/Ch01GuitarShop/GuitarShop/obj/Debug/netcoreapp3.1/GuitarShop.RazorAssemblyInfo.cache
 /Users/jonathan/Desktop/Azure ASP .NET/aspnet_core_mvc/book_apps/Ch01GuitarShop/GuitarShop/obj/Debug/netcoreapp3.1/GuitarShop.RazorAssemblyInfo.cs
 /Users/jonathan/Desktop/Azure ASP .NET/aspnet_core_mvc/book_apps/Ch01GuitarShop/GuitarShop/obj/Debug/netcoreapp3.1/staticwebassets/GuitarShop.StaticWebAssets.Manifest.cache
-/Users/jonathan/Desktop/Azure ASP .NET/aspnet_core_mvc/book_apps/Ch01GuitarShop/GuitarShop/obj/Debug/netcoreapp3.1/staticwebassets/GuitarShop.StaticWebAssets.xml
 /Users/jonathan/Desktop/Azure ASP .NET/aspnet_core_mvc/book_apps/Ch01GuitarShop/GuitarShop/obj/Debug/netcoreapp3.1/scopedcss/bundle/GuitarShop.styles.css
 /Users/jonathan/Desktop/Azure ASP .NET/aspnet_core_mvc/book_apps/Ch01GuitarShop/GuitarShop/obj/Debug/netcoreapp3.1/GuitarShop.TagHelpers.input.cache
 /Users/jonathan/Desktop/Azure ASP .NET/aspnet_core_mvc/book_apps/Ch01GuitarShop/GuitarShop/obj/Debug/netcoreapp3.1/GuitarShop.TagHelpers.output.cache

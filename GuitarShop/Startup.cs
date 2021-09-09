@@ -7,6 +7,7 @@ namespace GuitarShop
     {
         public void ConfigureServices(IServiceCollection services)
         {
+            // allows us to bind Controller with views
             services.AddControllersWithViews();
         }
 
@@ -15,11 +16,23 @@ namespace GuitarShop
             app.UseDeveloperExceptionPage();
             app.UseStaticFiles();
             app.UseRouting();
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+            app.UseEndpoints(endpoints => {
+
+            // most specific route – 5 required segments 
+            endpoints.MapControllerRoute(
+            name: "paging_and_sorting",
+            pattern: "{controller}/{action}/{id}/page{page}/sort-by-{sortby}");
+
+            // specific route – 4 required segments
+            endpoints.MapControllerRoute(
+            name: "paging",
+            pattern: "{controller}/{action}/{id}/page{page}");
+
+             // least specific route – 0 required segments
+            endpoints.MapControllerRoute(
+            name: "default",
+            pattern: "{controller=Home}/{action=Index}/{id?}");
+
             });
         }
     }

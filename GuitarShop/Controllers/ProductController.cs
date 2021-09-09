@@ -6,18 +6,12 @@ namespace GuitarShop.Controllers
 {
     public class ProductController : Controller
     {
-        // Controller for when view a product by id
-        public IActionResult Detail(string id)
+        public IActionResult List(string id = "All")
         {
-            Product product = DB.GetProduct(id);
-            return View(product);
+            return Content("Product controller, List action, id: " + id);
         }
-
-        // Controller to view a list of products
-        public IActionResult List()
+        public IActionResult Detail(int id)
         {
-            List<Product> products = DB.GetProducts();
-            return View(products);
         }
     }
 }

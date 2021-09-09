@@ -8,7 +8,8 @@ namespace GuitarShop.Controllers
         // Controller for the index html content view
         public IActionResult Index()
         {
-            return View();
+            //return View();
+            return Content("Home controller, Index action");
         }
 
         // Controller for the About html content view
